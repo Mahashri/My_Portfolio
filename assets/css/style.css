@@ -324,8 +324,8 @@ body {
 }
 
 .skill img {
-    width: 40px; /* Adjust as needed for icon size */
-    height: 40px; /* Adjust as needed for icon size */
+    width: 55px; /* Adjust as needed for icon size */
+    height: 55px; /* Adjust as needed for icon size */
     display: block;
     margin: 0 auto; /* Center the icon within the skill box */
     padding: 10px; /* Padding around the icon */
