@@ -280,3 +280,53 @@ img {
     font-size: 14px;
     /* Adjust the font size as needed */
 }
+
+
+
+#new
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.skills-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Ensure three skills per row */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust as needed for spacing between items */
+}
+
+.skill {
+    flex-basis: calc(33.33% - 20px); /* Adjust margin between items */
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px; /* Add curved border */
+    overflow: hidden; /* Ensure the border-radius applies properly */
+    transition: transform 0.2s ease-out; /* Smooth hover effect */
+}
+
+.skill:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.skill img {
+    width: 40px; /* Adjust as needed for icon size */
+    height: 40px; /* Adjust as needed for icon size */
+    display: block;
+    margin: 0 auto; /* Center the icon within the skill box */
+    padding: 10px; /* Padding around the icon */
+}
